@@ -24,3 +24,6 @@ CI = "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.hyph
 
 [project.optional-dependencies]
 test = ["pytest"]
+
+[tool.isort]
+profile = "black"
