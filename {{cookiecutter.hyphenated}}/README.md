@@ -39,3 +39,8 @@ To run the tests:
 ```bash
 python -m pytest
 ```
+This project uses [ruff](https://docs.astral.sh/ruff/) for linting and formatting, run via pre-commit. To install the hooks:
+```bash
+pip install pre-commit
+pre-commit install
+```
